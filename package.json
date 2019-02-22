@@ -5,13 +5,16 @@
   "main": "server.js",
   "scripts": {
     "build": "rm -rf build && webpack",
-    "start": "node -r tsconfig-paths/register ./build/src/server.js",
+    "start": "node ./build/src/server.js",
     "lint": "tslint --project ./tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/graphql": "14.0.7",
+    "apollo-server": "2.4.6",
+    "graphql": "14.1.1",
     "prettier": "1.16.4",
     "ts-loader": "5.3.3",
     "tslint": "5.12.1",
