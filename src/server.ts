@@ -1,38 +1,17 @@
+import { TypeDefinitions } from '@server/types/TypeDefs';
 import * as Apollo from 'apollo-server';
 
-const { gql, ApolloServer } = Apollo;
+const { ApolloServer } = Apollo;
 
-const books = [
-  {
-    author: 'J.K. Rowling',
-    title: 'Harry Potter and the Chamber of Secrets',
-  },
-  {
-    author: 'Michael Crichton',
-    title: 'Jurassic Park',
-  },
-];
+const resolvers = {};
 
-const typeDefs = gql`
-  type Book {
-    title: String
-    author: String
-  }
-
-  type Query {
-    books: [Book]
-  }
-`;
-
-const resolvers = {
-  Query: {
-    books: () => books,
-  },
-};
-
-const server = new ApolloServer({ typeDefs, resolvers });
+const server = new ApolloServer({
+  mocks: true,
+  resolvers,
+  typeDefs: TypeDefinitions,
+});
 
 server.listen().then(({ url }) => {
   // tslint:disable-next-line no-console
-  console.log(`🚀 Server ready at ${url}`);
+  console.log(`Server ready at ${url}`);
 });
