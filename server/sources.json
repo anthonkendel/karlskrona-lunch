@@ -1,0 +1,18 @@
+{
+    "sources": [
+        {"name": "Saltö Fiskhall", "url": "http://saltofiskhall.se/"},
+        {"name": "Nya Skafferiet", "url": "https://www.nyaskafferiet.se/"},
+        {"name": "Restaurang Sarajevo", "url": "http://restaurangsarajevo.se/"},
+        {"name": "Cozy Kitchen", "url": "https://www.cozykitchen.se/"},
+        {"name": "Restaurang Michelangelo", "url": "http://www.restaurangmichelangelo.se/"},
+        {"name": "Biobaren", "url": "http://www.biobaren.se/"},
+        {"name": "Skeppsgossen", "url": "http://www2.skeppsgossen.se/"},
+        {"name": "Stars and Stripes", "url": "http://www.starsnstripes.se/karlskrona/meny/lunch/"},
+        {"name": "Sjörök", "url": "http://www.sjorok.se/"},
+        {"name": "Rost & Vin", "url": "http://www.rostvin.se/"},
+        {"name": "Restaurang Utkiken", "url": "http://www.utkikenkarlskrona.se/"},
+        {"name": "Café & Bistro J", "url": "http://www.hors.se/restaurang/bistro-j/"},
+        {"name": "Villa Oscar", "url": "http://www.hors.se/restaurang/villa-oscar/"},
+        {"name": "Parken Café Bar Bistro", "url": "http://www.parkenkarlskrona.se/"}
+    ]
+}
