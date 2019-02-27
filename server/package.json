@@ -14,10 +14,12 @@
   "license": "MIT",
   "dependencies": {
     "apollo-server": "2.4.6",
-    "graphql": "14.1.1"
+    "graphql": "14.1.1",
+    "puppeteer": "1.12.2"
   },
   "devDependencies": {
     "@types/graphql": "14.0.7",
+    "@types/puppeteer": "1.12.1",
     "nodemon-webpack-plugin": "4.0.7",
     "prettier": "1.16.4",
     "ts-loader": "5.3.3",
