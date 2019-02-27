@@ -1,6 +1,6 @@
 import { gql } from 'apollo-server';
 
-export const TypeDefinitions = gql`
+export const typeDefs = gql`
   type Place {
     "Unique id of the Place"
     id: ID!
