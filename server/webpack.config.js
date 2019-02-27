@@ -4,7 +4,7 @@ const NodemonPlugin = require('nodemon-webpack-plugin')
 const isProduction = process.env === 'production';
 
 module.exports = {
-  target: "node",
+  target: 'node',
   entry: './src/server.ts',
   output: {
     path: path.resolve(__dirname, 'build', 'src'),
