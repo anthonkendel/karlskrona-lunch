@@ -13,7 +13,7 @@ module.exports = {
   mode: isProduction ? 'production' : 'development',
   devtool: 'inline-source-map',
   resolve: {
-    extensions: ['.ts', '.mjs', '.js'],
+    extensions: ['.ts', '.mjs', '.js', '.json'],
     modules: ['src', 'node_modules'],
     alias: {
       '@server': path.resolve(__dirname, 'src'),
