@@ -1,7 +1,7 @@
 const path = require('path');
-const NodemonPlugin = require('nodemon-webpack-plugin')
+const NodemonPlugin = require('nodemon-webpack-plugin');
 
-const isProduction = process.env === 'production';
+const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = {
   target: 'node',
