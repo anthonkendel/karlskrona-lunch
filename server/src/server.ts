@@ -1,3 +1,4 @@
+import '@server/crawlers/crawler';
 import { typeDefs } from '@server/types/typeDefs';
 import * as Apollo from 'apollo-server';
 
