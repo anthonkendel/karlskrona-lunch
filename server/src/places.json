@@ -1,71 +1,140 @@
 {
-  "sources": [{
+  "sources": [
+    {
       "name": "Saltö Fiskhall",
-      "url": "http://saltofiskhall.se/"
+      "url": "http://saltofiskhall.se/",
+      "location": {
+        "latitude": "56.1637611",
+        "longitude": "15.566648"
+      }
     },
     {
       "name": "Nya Skafferiet",
-      "url": "https://www.nyaskafferiet.se/"
+      "url": "https://www.nyaskafferiet.se/",
+      "location": {
+        "latitude": "56.1615682",
+        "longitude": "15.582442"
+      }
     },
     {
       "name": "Restaurang Sarajevo",
-      "url": "http://restaurangsarajevo.se/"
+      "url": "http://restaurangsarajevo.se/",
+      "location": {
+        "latitude": "56.1619448",
+        "longitude": "15.582698"
+      }
     },
     {
       "name": "Cozy Kitchen",
-      "url": "https://www.cozykitchen.se/"
+      "url": "https://www.cozykitchen.se/",
+      "location": {
+        "latitude": "56.1623267",
+        "longitude": "15.582312"
+      }
     },
     {
       "name": "Restaurang Michelangelo",
-      "url": "http://www.restaurangmichelangelo.se/"
+      "url": "http://www.restaurangmichelangelo.se/",
+      "location": {
+        "latitude": "56.161977",
+        "longitude": "15.587096"
+      }
     },
     {
       "name": "Biobaren",
-      "url": "http://www.biobaren.se/"
+      "url": "http://www.biobaren.se/",
+      "location": {
+        "latitude": "56.1621512",
+        "longitude": "15.587301"
+      }
     },
     {
       "name": "Skeppsgossen",
-      "url": "http://www2.skeppsgossen.se/"
+      "url": "http://www2.skeppsgossen.se/",
+      "location": {
+        "latitude": "56.1611072",
+        "longitude": "15.596906"
+      }
     },
     {
       "name": "Stars and Stripes",
-      "url": "http://www.starsnstripes.se/karlskrona/meny/lunch/"
+      "url": "http://www.starsnstripes.se/karlskrona/meny/lunch/",
+      "location": {
+        "latitude": "56.1613724",
+        "longitude": "15.586892"
+      }
     },
     {
       "name": "Sjörök",
-      "url": "http://www.sjorok.se/"
+      "url": "http://www.sjorok.se/",
+      "location": {
+        "latitude": "56.167482",
+        "longitude": "15.589979"
+      }
     },
     {
       "name": "Rost & Vin",
-      "url": "http://www.rostvin.se/"
+      "url": "http://www.rostvin.se/",
+      "location": {
+        "latitude": "56.1676802",
+        "longitude": "15.587746"
+      }
     },
     {
       "name": "Restaurang Utkiken",
-      "url": "http://www.utkikenkarlskrona.se/"
+      "url": "http://www.utkikenkarlskrona.se/",
+      "location": {
+        "latitude": "56.1769826",
+        "longitude": "15.584746"
+      }
     },
     {
       "name": "Café & Bistro J",
-      "url": "http://www.hors.se/restaurang/bistro-j/"
+      "url": "http://www.hors.se/restaurang/bistro-j/",
+      "location": {
+        "latitude": "56.182656",
+        "longitude": "15.5880553"
+      }
     },
     {
       "name": "Villa Oscar",
-      "url": "http://www.hors.se/restaurang/villa-oscar/"
+      "url": "http://www.hors.se/restaurang/villa-oscar/",
+      "location": {
+        "latitude": "56.1829529",
+        "longitude": "15.589144"
+      }
     },
     {
       "name": "Parken Café Bar Bistro",
-      "url": "http://www.parkenkarlskrona.se/"
+      "url": "http://www.parkenkarlskrona.se/",
+      "location": {
+        "latitude": "56.1631967",
+        "longitude": "15.583645"
+      }
     },
     {
       "name": "Restaurang Matsmedjan",
-      "url": "https://www.restaurangmatsmedjan.se/"
+      "url": "https://www.restaurangmatsmedjan.se/",
+      "location": {
+        "latitude": "56.2011122",
+        "longitude": "15.618117"
+      }
     },
     {
       "name": "Restaurang Källarmästaren",
-      "url": "http://www.kallarmastaren.se/"
+      "url": "http://www.kallarmastaren.se/",
+      "location": {
+        "latitude": "56.1918415",
+        "longitude": "15.633562"
+      }
     },
     {
       "name": "Streetfood by Fia & Mats",
-      "url": "http://www.streetfoodbyfiaomats.se/"
+      "url": "http://www.streetfoodbyfiaomats.se/",
+      "location": {
+        "latitude": "56.2002819",
+        "longitude": "15.615891"
+      }
     }
   ]
 }
