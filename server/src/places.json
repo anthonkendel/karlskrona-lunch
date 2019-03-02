@@ -54,6 +54,18 @@
     {
       "name": "Parken Café Bar Bistro",
       "url": "http://www.parkenkarlskrona.se/"
+    },
+    {
+      "name": "Restaurang Matsmedjan",
+      "url": "https://www.restaurangmatsmedjan.se/"
+    },
+    {
+      "name": "Restaurang Källarmästaren",
+      "url": "http://www.kallarmastaren.se/"
+    },
+    {
+      "name": "Streetfood by Fia & Mats",
+      "url": "http://www.streetfoodbyfiaomats.se/"
     }
   ]
 }
