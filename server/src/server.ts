@@ -1,6 +1,7 @@
 import places from '@server/places.json';
 import { typeDefs } from '@server/types/typeDefs';
 import * as Apollo from 'apollo-server';
+import menuFetcher from './MenuFetcher';
 import { ISource } from './types/ISource';
 const { ApolloServer } = Apollo;
 
@@ -20,3 +21,5 @@ server.listen().then(({ url }) => {
 const sources: ISource[] = places.sources;
 // tslint:disable-next-line no-console
 console.log(sources);
+
+menuFetcher.fetchMenus();
